@@ -1,0 +1,141 @@
+@font-face {
+  font-family: poppins;
+  src: url(./assets/Poppins-Regular.ttf);
+}
+body{
+  font-family: poppins !important;
+  background: rgb(191,209,252);
+background: linear-gradient(158deg, rgba(191,209,252,1) 0%, rgba(149,8,255,1) 44%, rgba(131,126,251,1) 100%);
+
+  min-height: 795px;
+  max-height: fit-content;
+  display: flex;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+:root{
+  --bs-purple: #9508ff;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+form{
+  padding: 0%;
+  margin: 0;
+}
+.main{
+  background: linear-gradient(158deg, rgba(191,209,252,1) 0%, rgba(191,133,235,1) 44%, rgba(131,126,251,1) 100%);
+
+  margin: auto;
+  display: flex;
+  /* justify-content: center; */
+  /* margin: 0% 30% 0% 30% !important; */
+  border-radius: 20px;
+  
+}
+.inner-main{
+  margin: 20px;
+}
+.input{
+  
+  outline: none;
+  border: none;
+  width: 280px;
+  border-radius: 5px;
+  padding: 12px;
+  margin-right: 6px;
+  background-color: #fff;
+  font-size: 15px;
+}
+.li{
+  outline: none;
+  border: none;
+  width: 250px;
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 6px;
+  background-color: #fff;
+  overflow: hidden;
+  /* display: flex;
+  justify-content: end; */
+}
+.todo-list{
+  display: flex;
+  align-items: end;
+}
+.todo-btn{
+  border: none;
+  outline: none;
+  padding: 12px;
+  background-color: var(--bs-purple);
+  color: #fff;
+  font-weight: 900;
+  border-radius: 5px;
+}
+.edit-btn{
+  border: none;
+  outline: none;
+  padding: 12px;
+  background-color: var(--bs-purple);
+  color: #fff;
+  font-weight: 900;
+  border-radius: 5px;
+}
+.delete-btn{
+  border: none;
+  outline: none;
+  padding: 12px;
+  background-color: var(--bs-purple);
+  color: #fff;
+  font-weight: 900;
+  border-radius: 5px;
+}
+
+.credit{
+  position: absolute;
+  bottom: 0%;
+  right: 2%;
+  position: fixed;
+  color: #000 !important;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 4px;
+  font-weight: 600;
+}
